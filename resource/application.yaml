@@ -1,0 +1,48 @@
+app:
+  title: Cobrança BB - API v1
+  name: Cobrança BB
+  description: Projeto de integração com as APIs de cobrança do Banco do Brasil
+  version: 1.0.0
+
+server:
+  port: 8081
+  logger:
+    enable: false
+
+security:
+  aes: "Uhyas876yhba90aG"
+
+swagger:
+  port: 8081
+  host: localhost
+  base: /
+
+redis:
+  env:
+  network:
+  url:
+  username:
+  password:
+  database:
+  pool:
+  minIdleConns:
+  maxRetries:
+  tls:
+  sleep:
+  serviceName:
+
+database:
+  keepALive:
+  logLevel:
+  maxIdleConn:
+  minOpenConn:
+  maxLifetime:
+  connection:
+    host:
+    port:
+    dialect:
+    schema:
+    username:
+    password:
+    database:
+    sslMode:
