@@ -26,3 +26,4 @@ internal/http/swagger/docs
 .idea/cobranca-bb.iml
 .idea/modules.xml
 .idea/vcs.xml
+.idea/git_toolbox_prj.xml
